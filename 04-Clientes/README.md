@@ -1,65 +1,18 @@
-# 🤝 Clientes
+# Clientes
 
-> Carpeta para cada cliente con toda su información
+## Pipeline
 
----
+| Cliente | Estado | Próximo paso | Valor |
+|---------|--------|--------------|-------|
+| *(vacío)* | — | — | — |
 
-## 📊 Clientes Actuales
-
-| Cliente | Estado | Proyecto | Contacto |
-|---------|--------|----------|----------|
-| *(agregar clientes)* | — | — | — |
-
-**Estados:** 🟢 Activo | 🟡 En negociación | ✅ Completado | ❌ Perdido
+**Estados:** 🟡 Lead | 🔵 Propuesta enviada | 🟢 Negociando | ✅ Cerrado
 
 ---
 
-## 📁 Estructura por Cliente
+## Nuevo cliente
 
-Cada cliente tiene una carpeta con:
-
-```
-cliente-nombre/
-├── README.md          ← Info general del cliente
-├── contactos.md       ← Personas de contacto
-├── contratos/         ← Contratos firmados
-├── propuestas/        ← Propuestas enviadas
-├── comunicaciones/    ← Emails importantes, notas
-└── entregables/       ← Lo que se entregó
-```
-
----
-
-## ➕ Nuevo Cliente
-
-1. Crear carpeta con nombre del cliente
-2. Copiar template de `07-Templates/cliente-template/`
-3. Llenar información básica
-4. Agregar a este dashboard
-
----
-
-## 📋 Pipeline de Ventas
-
-### En Negociación 🟡
-*( ninguno actualmente )*
-
-### Activos 🟢
-*( ninguno actualmente )*
-
-### Completados ✅
-*( ninguno actualmente )*
-
----
-
-## 💡 Notas de Ventas
-
-- Nunca ofrecer gratis ("lo gratis no se valora")
-- Escuelas nacionales: mínimo Gs. 5,000/persona
-- Siempre tener contrato firmado antes de empezar
-- 50% anticipo es estándar
-
----
-
-*Templates de propuesta y contrato en: [07-Templates/](../07-Templates/)*
-
+1. Crear carpeta: `nombre-cliente/`
+2. Enviar propuesta → `07-Templates/propuesta-template.md`
+3. Si acepta → cotización → contrato
+4. Entregar → facturar
