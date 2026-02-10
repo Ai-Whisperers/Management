@@ -1,43 +1,31 @@
-# Ai-Whisperers Management
+# Management
 
-**Focus: Close deals, deliver value, get paid.**
+**Ai-Whisperers** — Sales & Operations
 
----
-
-## 📁 Structure
+## Structure
 
 ```
-├── 01-Sistema-de-Gestion/   ← Rules, roles, contracts
-├── 04-Clientes/             ← Client pipeline
-├── 07-Templates/            ← Propuesta, Contrato, Cotización
-├── 08-Archivos/             ← Past work (proof for sales)
-└── assistant-rulebook.md    ← AI assistant rules
+├── clientes/       ← Client folders (1 per client)
+├── templates/      ← propuesta, cotizacion, contrato
+├── docs/           ← Internal rules
+└── archivo/        ← Past work (proof)
 ```
 
----
+## Sales Flow
 
-## 🎯 Sales Pipeline
+```
+Lead → propuesta → cotizacion → contrato → deliver → invoice
+```
 
-| Stage | Action |
-|-------|--------|
-| Lead → | Send propuesta |
-| Interested → | Send cotización |
-| Ready → | Sign contrato |
-| Closed → | Deliver & invoice |
+## Team
 
----
-
-## 👥 Team
-
-| Who | Does |
+| Who | Role |
 |-----|------|
-| **Kyrian** | Sales, marketing, operations |
-| **Iván** | Development, technical |
-| **Jonathan** | Dev support (hourly) |
+| Kyrian | Sales, ops |
+| Iván | Dev |
+| Jonathan | Dev (hourly) |
 
----
-
-## 🔗 Links
+## Links
 
 - [GitHub](https://github.com/Ai-Whisperers)
 - [Drive](https://drive.google.com/drive/folders/1d6vwcPeR8jv8Sq7JOGM1IZDXYkT83Z7z)
