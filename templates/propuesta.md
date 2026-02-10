@@ -1,21 +1,23 @@
-# 📋 Propuesta Comercial
+# Propuesta Comercial
 
 ---
 
-**Para:** [Nombre del Cliente]  
+**Para:** {{client_name}}  
 **De:** Ai-Whisperers  
-**Fecha:** ___/___/2026  
-**Válida hasta:** ___/___/2026
+**Fecha:** {{date}}  
+**Válida hasta:** {{valid_until}}
 
 ---
 
-## 🎯 Resumen Ejecutivo
+## Resumen Ejecutivo
 
-[Breve descripción de qué se propone y por qué es valioso para el cliente]
+{{service_description}}
+
+Esta propuesta presenta una solución diseñada específicamente para las necesidades de {{client_name}}, con el objetivo de mejorar la eficiencia operativa mediante el uso de tecnologías de inteligencia artificial.
 
 ---
 
-## 🏢 Sobre Ai-Whisperers
+## Sobre Ai-Whisperers
 
 Somos una empresa especializada en:
 - AI-powered tools para automatización de negocios
@@ -28,71 +30,61 @@ Somos una empresa especializada en:
 
 ---
 
-## 📋 Propuesta de Trabajo
+## Propuesta de Trabajo
 
 ### Alcance
 
-[Descripción detallada de lo que se hará]
+{{scope_description}}
 
 ### Entregables
 
-| # | Entregable | Descripción |
-|---|------------|-------------|
-| 1 | __________ | __________ |
-| 2 | __________ | __________ |
-| 3 | __________ | __________ |
+{{deliverables_table}}
 
 ### Qué NO incluye
 
-- [Aclarar limitaciones]
-- [Trabajo adicional que no está incluido]
+- Mantenimiento después del período de soporte inicial
+- Desarrollo de funcionalidades fuera del alcance acordado
+- Capacitación adicional sin previa coordinación
+- Infraestructura de terceros (servidores, licencias)
 
 ---
 
-## 📅 Cronograma
+## Cronograma
 
-| Fase | Descripción | Duración |
-|------|-------------|----------|
-| 1 | __________ | __ días |
-| 2 | __________ | __ días |
-| 3 | __________ | __ días |
-| **Total** | | **__ días** |
+{{timeline_table}}
 
 ---
 
-## 💰 Inversión
+## Inversión
 
 | Concepto | Precio |
 |----------|--------|
-| [Servicio 1] | Gs. _______ |
-| [Servicio 2] | Gs. _______ |
-| **TOTAL** | **Gs. _______** |
+| {{service_name}} | {{price_gs}} |
+| **TOTAL** | **{{price_gs}}** |
 
 ### Forma de Pago
+- [x] 50% anticipo ({{deposit_usd}}), 50% al finalizar
 - [ ] 100% anticipado
-- [ ] 50% anticipo, 50% al finalizar
 - [ ] Otro: _______
 
 ---
 
-## ✅ Próximos Pasos
+## Próximos Pasos
 
 1. Confirmar interés en la propuesta
 2. Agendar reunión para resolver dudas
 3. Firmar contrato
-4. Pago de anticipo
+4. Pago de anticipo ({{deposit_usd}})
 5. Inicio del proyecto
 
 ---
 
-## 📞 Contacto
+## Contacto
 
 **Kyrian Weiss**  
 Co-fundador, Ai-Whisperers  
-Email: [email]  
-Teléfono: [teléfono]
+{{contact_info}}
 
 ---
 
 *Esta propuesta es válida por 30 días a partir de la fecha de emisión.*
-

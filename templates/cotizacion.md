@@ -1,78 +1,70 @@
-# 💰 Cotización
+# Cotizacion
 
 ---
 
-**Nº Cotización:** AIWHISP-2026-___  
-**Fecha:** ___/___/2026  
-**Válida hasta:** ___/___/2026
+**Nº Cotización:** {{quote_number}}  
+**Fecha:** {{date}}  
+**Válida hasta:** {{valid_until}}
 
 ---
 
-## 📋 Datos del Cliente
+## Datos del Cliente
 
 | Campo | Valor |
 |-------|-------|
-| Nombre/Empresa | _________________ |
-| Contacto | _________________ |
-| Email | _________________ |
-| Teléfono | _________________ |
+| Nombre/Empresa | {{client_name}} |
+| Contacto | {{contact_name}} |
+| Email | {{contact_email}} |
+| Teléfono | {{contact_phone}} |
 
 ---
 
-## 🎯 Servicio Solicitado
+## Servicio Solicitado
 
 **Tipo:**
-- [ ] Curso/Capacitación
-- [ ] Desarrollo de software
-- [ ] Consultoría
-- [ ] Otro: _________________
+- [x] {{service_name}}
 
 **Descripción:**
-_____________________________________________
-_____________________________________________
+{{service_description}}
 
 ---
 
-## 📊 Detalle de la Cotización
+## Detalle de la Cotización
 
-| # | Concepto | Cantidad | Precio Unit. | Subtotal |
-|---|----------|----------|--------------|----------|
-| 1 | _________ | ___ | Gs. _______ | Gs. _______ |
-| 2 | _________ | ___ | Gs. _______ | Gs. _______ |
-| 3 | _________ | ___ | Gs. _______ | Gs. _______ |
+{{quote_details_table}}
 
 ---
 
-## 💵 Resumen
+## Resumen
 
 | Concepto | Monto |
 |----------|-------|
-| Subtotal | Gs. _______ |
-| IVA (10%) | Gs. _______ |
-| **TOTAL** | **Gs. _______** |
+| Subtotal | {{price_gs}} |
+| IVA (10%) | {{tax_gs}} |
+| **TOTAL** | **{{total_gs}}** |
 
 ---
 
-## 📅 Condiciones
+## Condiciones
 
 **Forma de pago:**
+- [x] 50% anticipo, 50% al finalizar
 - [ ] 100% anticipado
-- [ ] 50% anticipo, 50% al finalizar
 - [ ] Otro: _________________
 
-**Tiempo de entrega:** _____ días hábiles
+**Tiempo de entrega:** {{duration_days}} días hábiles
 
 **Incluye:**
-- _________________
-- _________________
+{{includes_list}}
 
 **No incluye:**
-- _________________
-- _________________
+- Mantenimiento post-entrega (excepto período de soporte)
+- Infraestructura de terceros
+- Capacitación adicional
 
 ---
 
-## ✅ Para Aceptar
+## Para Aceptar
 
 Para proceder con esta cotización:
 
@@ -82,14 +74,12 @@ Para proceder con esta cotización:
 
 ---
 
-## 📞 Contacto
+## Contacto
 
 **Ai-Whisperers**  
 Kyrian Weiss - Co-fundador  
-Email: _________________  
-Teléfono: _________________
+{{contact_info}}
 
 ---
 
 *Esta cotización es válida por 15 días a partir de la fecha de emisión.*
-
